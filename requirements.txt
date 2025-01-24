@@ -1,9 +1,11 @@
 pyyaml
 requests
-inquirer
 fastapi
 uvicorn
 python-dotenv
 python-multipart
-# lib_resume_builder_AIHawk
-# git+https://github.com/ehsanahmadkhan525/lib_resume_builder_AIHawk.git
+playwright
+langchain-openai
+langchain-community
+langchain-core
+langchain

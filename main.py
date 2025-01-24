@@ -55,12 +55,20 @@ async def main():
 
             topics = [
                 "success", "failure", "resilience", "self-belief", "persistence",
-                "dreams", "hard work", "opportunity", "learning", "courage"
+                "dreams", "hard work", "opportunity", "learning", "courage",
+                "leadership", "innovation", "teamwork", "creativity", "discipline",
+                "time management", "goal setting", "self-improvement", "mindfulness",
+                "work-life balance", "entrepreneurship", "risk-taking", "adaptability",
+                "emotional intelligence", "networking", "public speaking", "decision making",
+                "problem solving", "critical thinking", "stress management"
             ]
 
             styles = [
                 "short and punchy", "poetic", "inspirational", "reflective",
-                "powerful", "uplifting", "lighthearted", "empathetic"
+                "powerful", "uplifting", "lighthearted", "empathetic",
+                "humorous", "philosophical", "scientific", "historical",
+                "futuristic", "minimalist", "storytelling", "metaphorical",
+                "rhyming", "questioning", "challenging", "encouraging"
             ]
 
             motivation_prompt = f"Write a {choice(styles)} motivational quote about {choice(topics)}."
